@@ -1,0 +1,91 @@
+body{
+    background-image: url(../static/media/calendario_aesthetic.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav-link:hover{
+background-color: rgb(110, 105, 28);
+transition: all 0.8s;
+}
+
+#nav-id{
+border-radius: 15%;
+}
+.text-conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin-top: 8%;
+
+}
+.text1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+}
+.text2{
+    font-family: 'Koulen', cursive;
+    font-size: 70px;
+    margin-top: 150px;
+  margin-left: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.contenedor{
+    width: 70%;
+    padding: 15px;
+    
+}
+.formulario{
+    width: 600px;
+    height: 450px;
+    background: rgb(230, 226, 43);
+    margin-top: 70px;
+    padding: 3px;
+    border-radius: 10px;
+    
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #000000;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: rgb(110, 105, 28);
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: rgb(44, 200, 206);
+}
+
